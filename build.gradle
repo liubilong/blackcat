@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'com.sileton'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/public' }
+    mavenCentral()
+}
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+}
