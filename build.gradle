@@ -4,6 +4,7 @@ plugins {
 
 group 'com.sileton'
 version '1.0-SNAPSHOT'
+group 'test'
 
 repositories {
     maven { url 'https://maven.aliyun.com/repository/public' }
